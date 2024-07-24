@@ -11,8 +11,6 @@ namespace Listai.Models
         public Customer Customer { get; set; }
         public List<Product> Products { get; set; }
 
-        public Order() { }
-
         public Order(Customer customer, List<Product> products)
         {
             Customer = customer;
